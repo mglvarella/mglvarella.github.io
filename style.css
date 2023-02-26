@@ -1,0 +1,350 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto-Sans';
+}
+@font-face {
+    font-family: 'Noto-Sans';
+    src: url(Noto_Sans/NotoSans-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Noto-Sans-light';
+    src: url(Noto_Sans/NotoSans-Light.ttf) format('truetype');
+}
+body{
+    background-color: #1A7FBD;
+}
+header{
+    width: 94vw;
+    margin-top: 0.5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding-bottom: 0.5vw;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-image: radial-gradient(circle, #A4DCFF, #1A7FBD) 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+}
+header img{
+    max-width: 15vw;
+    max-height: 10vh;
+    width: auto;
+    height: auto;
+    margin-right: 4%;
+}
+header li {
+    color: #FFF;
+    font-size: medium;
+    text-align: center;
+    list-style-type: none;
+    white-space: nowrap;
+    margin: 2vw;
+
+  }
+header ul{
+    display: flex; 
+}
+header h3{
+    color:#FFF;
+    font-size: 1rem;
+    text-align: center;
+    white-space: wrap;
+    max-width: 15vw;
+    max-height: 10vh;
+    width: auto;
+    height: auto;
+    background-color: black;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-left: 4%;
+    border-radius: 7px;
+}
+.container1{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container1 img{
+    width: 95vw;
+    position: relative;
+    top: -6vw;
+    right: -2vw;
+    z-index: -1;
+}
+
+/*FORMULÁRIO*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto-Sans';
+}
+
+fieldset{ 
+    position: relative;
+    left: -22vw;
+    top: -9vw;
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #fff;
+    
+
+    border-radius: 10px;
+    border: double 1px transparent;
+    background-image: linear-gradient(#1A7FBD, #1A7FBD),
+    linear-gradient(45deg, #fff, transparent, transparent, #fff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    white-space: wrap;
+}
+form{
+    background-color: white;
+    border-radius: 10px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.7vw;
+    white-space: wrap;
+}
+form h1{
+    color: #A4DCFF;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 9%;
+    margin-top: 10%;
+}
+form h2{
+    color: #1A7FBD;
+    font-size: 0.85rem;
+    text-align: left;
+    margin-left: 9%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.inputname{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.inputname input{
+    width: 70%;
+    padding: 2.5%;
+    padding-left: 12%;
+    border-radius: 7px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border: 1px solid gray;
+}
+.user img{
+    width: 1vw;
+    position: relative;
+    left: 3vw;
+    top: -0.2em;
+    
+}
+.inputmail{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.inputmail input{
+    width: 70%;
+    padding: 2.5%;
+    padding-left: 12%;
+    border-radius: 7px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border: 1px solid gray;
+}
+.mail img{
+    width: 1vw;
+    position: relative;
+    left: 3vw;
+    top: -0.2em;
+}
+.selectestado{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.selectestado select{
+    width: 85%;
+    padding: 2.1%;
+    padding-left: 11%;
+    border-radius: 7px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border: 1px solid gray;
+}
+.estado img{
+    width: 1vw;
+    width: 1vw;
+    position: relative;
+    left: 3vw;
+    top: -0.2em;
+}
+.option{
+    color: rgb(158, 158, 158);
+}
+.conhecimentos{
+    background-color: #1A7FBD;
+    color: white;
+    padding-bottom: 5%;
+}
+.conhecimentos h3{
+    color: #FFF;
+    font-size: small;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.opcoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-left: 2%;
+    padding-bottom: 3%;
+}
+.checkbox1{
+    margin-left: 6%;
+    margin-bottom: 2%;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.checkbox1 label{
+    font-family: "Noto-Sans-light";    
+}
+.checkbox1 input{
+    appearance: none;
+    width: 1.2em;
+    height: 1.2em;
+    border: 1px solid white;
+    border-radius: 3px;
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+}
+
+.checkbox1 input:checked:before{
+    content: '';
+    position: absolute;
+    border-radius: 1px;
+    width: 0.75em;
+    height: 0.75em;
+    background-color: #FFF;
+}
+
+.experiencia h3{
+    margin-top: 5%;
+    font-size: small;
+    margin-left: 9%;
+    color: #1A7FBD;
+}
+.expopcoes{
+    margin-left: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.expopcoes input{
+    appearance: none;
+    width: 1.2em;
+    height: 1.2em;
+    border: 1px solid #1A7FBD;
+    border-radius: 3px;
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    margin-left: 30px;
+}
+
+.expopcoes input:checked:before{
+    content: '';
+    position: absolute;
+    border-radius: 1px;
+    width: 0.75em;
+    height: 0.75em;
+    background-color: #1A7FBD;
+}
+.envio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.envio h3{
+    color: #1A7FBD;
+    font-size: x-small;
+    width: 83%;
+    padding: 2%;
+    text-align: center;
+    border-top: 1px solid rgb(201, 198, 198);
+}
+.envio input{
+    padding-top: 3%;
+    background-color: #1A7FBD;
+    color: #FFF;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    padding-left: 39%;
+    padding-right: 39%;
+    border-radius: 7px;
+    border: 0px;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    font-weight: bold;
+}
+.aviso{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.aviso h4{
+    text-align: center;
+    color: rgb(158, 158, 158);
+    font-size: x-small;
+    padding-bottom: 10%;
+}
+.aviso span{
+    color: #1A7FBD;
+}

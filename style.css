@@ -75,12 +75,11 @@ header h3{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
 .container1 img{
     width: 95vw;
     position: relative;
-    top: 2em;
+    top: 50px;
     right: 1vw;
     z-index: -1;
 }
@@ -95,8 +94,8 @@ header h3{
 
 fieldset{ 
     position: relative;
-    left: -22%;
-    top: 2em;
+    right: 20em;
+    top: 50px;
     display: flex;
     width: auto;
     height: auto;
@@ -358,7 +357,8 @@ form h2{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .container2 img{
@@ -390,4 +390,246 @@ form h2{
 
 .oprojeto p span{
     font-weight: bold;
+}
+
+/* CONTAINER 3 */
+
+.container3{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    width: 55vw;
+}
+.container3 section img{
+    width: 30vw;
+}
+
+.textoProblemas{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.textoProblemas h2{
+    background: linear-gradient(to right, #1A7FBD, #A4DCFF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+
+.textoProblemas h3{
+    font-size: 0.9rem;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(201, 198, 198) ;
+}
+
+.textoProblemas{
+    font-size: 0.7rem;
+}
+
+.textoProblemas h4{
+    font-size: 0.7rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -8.5vw;
+}
+
+.card1{
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 20vw;
+    height: 23vh;
+    padding: 1.5em;
+    margin-right: 0.5em;
+    font-family: 'Noto-Sans-light';
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card1 h2{
+    margin-bottom: 0.5em;
+    font-family: 'Noto-Sans';
+}
+
+.card2{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFF;
+    width: 20vw;
+    height: 23vh;
+    padding: 1.5em;
+    margin-right: 0.5em;
+    font-family: 'Noto-Sans-light';
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card2 h2{
+    margin-bottom: 0.5em;
+    font-family: 'Noto-Sans';
+}
+
+.card3{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFF;
+    width: 20vw;
+    height: 23vh;
+    padding: 1.5em;
+    margin-right: 0.5em;
+    font-family: 'Noto-Sans-light';
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+
+.card3 h2{
+    margin-bottom: 0.5em;
+    font-family: 'Noto-Sans';
+}
+
+.Containerjornada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.titulojornada h2{
+    background: linear-gradient(to right, #1A7FBD, #1A7FBD, #1A7FBD, #A4DCFF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1.7rem;
+    margin-bottom: 0.5vw;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-wrap: nowrap;
+}
+.titulojornada{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    margin-bottom: 30px ;
+}
+.titulojornada img{
+    height: 4px;
+}
+.jornada{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.jornadainfos{
+    margin: 0.5em;
+    width: 18vw;
+    height: auto;
+    background-color: #1A7FBD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.jornadainfos p{
+     color: #fff;
+     font-size: 0.7em;
+     margin-right: 25px;
+}
+
+.fundoicones{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.fundoicones img{
+    width: 1.7vw;
+    padding: 7px;
+}
+
+.cadastroProcesso{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.cadastroProcesso button{
+    color:#FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-size: 0.5rem;
+    text-align: left;
+    white-space: wrap;
+    max-width: 55vw;
+    max-height: 8vh;
+    width: auto;
+    height: auto;
+    background-color: black;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    margin-bottom: 15px;
+}
+
+.cadastroProcesso button h2 span{
+    color: #1A7FBD;
+}
+
+.cadastroProcesso button img{
+    margin-left: 10px;
+    width: 1.3vw;
+    margin-bottom: 0;
+}
+
+.cadastroProcesso img{
+    width: 10vw;
+    margin-bottom: 30px;
+}
+
+.ContainerObjetivos{
+    text-align: center;
+    color: #FFF;
+    height: 50vh;
 }
